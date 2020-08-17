@@ -1,0 +1,268 @@
+body {
+  box-sizing: border-box;
+  background-color: var(--main-bg-color);
+}
+
+:root {
+  /* Color */
+  --main-bg-color: #f4f4f4;
+  --main-dark-bg: #002333;
+  --main-green-color: #00ff84;
+  --main-white-color: #fff;
+  --main-grey-color: #a9a9a9;
+  --main-blue-color: #14b4fe;
+  --fill-green-color: #00ff84;
+  /* Others */
+  --card-br: 20px;
+  --default-margin-spacing: 30px;
+}
+
+/* Content Body(layout.js) */
+.content{
+  margin-top: var(--default-margin-spacing);
+}
+
+/* Tables */
+/* Purchase Invoice(DashBoard) */
+.purchaseInvoice {
+  margin-top: var(--default-margin-spacing);
+}
+
+/* Analytics Page */
+.contentContainer{
+  font-family: Poppins, sans-serif;
+}
+
+body > .loginContainer {
+  background: #fff;
+}
+
+/* Login Form */
+.loginContainer {
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: var(--main-dark-bg);
+  text-align: center;
+}
+.loginForm {
+  width: 450px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--main-dark-bg);
+  text-align: center;
+  border-radius: 20px;
+}
+
+.loginForm h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.loginForm input[type="email"],
+.loginForm input[type="password"] {
+  border: 0;
+  background: inherit;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid var(--fill-green-color);
+  padding: 10px 10px;
+  width: 250px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.loginForm input[type="email"]:focus,
+.loginForm input[type="password"]:focus {
+  width: 330px;
+  border-color: var(--main-blue-color);
+}
+
+.loginForm input[type="submit"] {
+  border: 0;
+  background: inherit;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  width: 330px;
+  border: 2px solid var(--main-green-color);
+  padding: 10px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.loginForm input[type="submit"]:hover {
+  background: var(--fill-green-color);
+}
+
+.loginForm p,
+#loginLink {
+  color: var(--main-grey-color);
+  font-size: small;
+  text-decoration: none;
+  /* display: inline-block;  makes transform work */
+  transition: all 0.5s ease-in-out;
+}
+
+.loginForm p #loginLink {
+  color: var(--main-white-color);
+}
+
+.loginForm p #loginLink:hover {
+  /* transform: scale(1, 1.03); */
+  font-size: medium;
+  color: var(--main-blue-color);
+}
+
+/* Logout */
+.logoutBtn {
+  width: 80px;
+  /*height: 25px; */
+  border: 2px solid var(--main-white-color);
+  margin-top: 6px;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: var(--card-br);
+}
+.logoutBtn:hover {
+  background-color: var(--main-white-color);
+  color: #111;
+  border: 2px solid var(--main-grey-color);
+}
+.logoutBtn > a {
+  margin-bottom: 2px;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  color: var(--main-grey-color);
+  width: 100px;
+  text-decoration: none;
+}
+.logoutBtn > a:hover {
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  color: var(--main-blue-color);
+}
+
+@import url("https://fonts.googleapis.com/css?family=Muli");
+
+/*Ref - google-webfonts-helper: https://google-webfonts-helper.herokuapp.com/fonts */
+
+/* special-elite-regular - latin */
+@font-face {
+  font-family: "Special Elite";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/special-elite-v10-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local("Special Elite Regular"), local("SpecialElite-Regular"),
+    url("./fonts/special-elite-v10-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/special-elite-v10-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("./fonts/special-elite-v10-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("./fonts/special-elite-v10-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("./fonts/special-elite-v10-latin-regular.svg#SpecialElite")
+      format("svg"); /* Legacy iOS */
+}
+
+/* poppins-regular - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/poppins-v12-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local("Poppins Regular"), local("Poppins-Regular"),
+    url("./fonts/poppins-v12-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/poppins-v12-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/poppins-v12-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/poppins-v12-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("./fonts/poppins-v12-latin-regular.svg#Poppins") format("svg"); /* Legacy iOS */
+}
+
+/* poppins-500 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/poppins-v12-latin-500.eot"); /* IE9 Compat Modes */
+  src: local("Poppins Medium"), local("Poppins-Medium"),
+    url("./fonts/poppins-v12-latin-500.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/poppins-v12-latin-500.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/poppins-v12-latin-500.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/poppins-v12-latin-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/poppins-v12-latin-500.svg#Poppins")
+      format("svg"); /* Legacy iOS */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./fonts/poppins-v12-latin-600.eot"); /* IE9 Compat Modes */
+  src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
+    url("./fonts/poppins-v12-latin-600.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/poppins-v12-latin-600.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/poppins-v12-latin-600.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/poppins-v12-latin-600.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/poppins-v12-latin-600.svg#Poppins")
+      format("svg"); /* Legacy iOS */
+}
+
+/* roboto-slab-regular - latin */
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/roboto-slab-v12-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("./fonts/roboto-slab-v12-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/roboto-slab-v12-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("./fonts/roboto-slab-v12-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("./fonts/roboto-slab-v12-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("./fonts/roboto-slab-v12-latin-regular.svg#RobotoSlab") format("svg"); /* Legacy iOS */
+}
+/* roboto-slab-600 - latin */
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./fonts/roboto-slab-v12-latin-600.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("./fonts/roboto-slab-v12-latin-600.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/roboto-slab-v12-latin-600.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/roboto-slab-v12-latin-600.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/roboto-slab-v12-latin-600.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("./fonts/roboto-slab-v12-latin-600.svg#RobotoSlab") format("svg"); /* Legacy iOS */
+}

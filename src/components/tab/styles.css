@@ -1,0 +1,25 @@
+/* Tab */
+.tab-list {
+  cursor: pointer;
+  margin-top: -5px;
+  border-bottom: 2px solid #eee;
+  padding-left: 0;
+}
+
+.tab-list-item {
+  color: #aaa;
+  display: inline-block;
+  font-weight: 500;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 2.75rem;
+}
+
+.tab-list-item:hover{
+  border-bottom: 2px solid #aaa;
+}
+
+.tab-list-active {
+  border-bottom: 2px solid #e67e22;
+  color: #444;
+}

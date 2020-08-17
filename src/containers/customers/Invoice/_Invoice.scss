@@ -1,0 +1,25 @@
+$rhythm: 20px;
+$font-family: Poppins, sans-serif;
+
+$marginSeparation: 30px;
+
+$invoiceMaxWidth: 2000px;
+$borderRadius: 4px;
+$buttonBorderRadius: 50px;
+
+$tableBorderColor: #ccc;
+$boxBgColor: #f4f4f4;
+$bgColor: #fff;
+$addColor: #1ed760;
+$removeColor: rgb(207, 78, 78);
+
+%flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.currency {
+  text-align: right;
+  word-break: break-word;
+}
