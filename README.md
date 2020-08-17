@@ -6,16 +6,23 @@ Website: [Link](https://crm-django-react.herokuapp.com/login)
 
 * Below is part a graphical display of some of the features it contains.
 ---
+**Login/Logout** view
+
+![](https://github.com/MartinMwiti/CRM-Django_React/blob/master/img/Screenshot%20(44).png)
+
 **Dashboard** view
 
-![](https://github.com/MartinMwiti/CRM-Django_React/blob/master/img/Screenshot%20(35).png)
+![](https://github.com/MartinMwiti/CRM-Django_React/blob/master/img/Screenshot%20(47).png)
 
 
 **Customer page** view
 
-![](https://github.com/MartinMwiti/CRM-Django_React/blob/master/img/Screenshot%20(36).png)
+![](https://github.com/MartinMwiti/CRM-Django_React/blob/master/img/Screenshot%20(45).png)
 
+**Add New Customer** view
+
+![](https://github.com/MartinMwiti/CRM-Django_React/blob/master/img/Screenshot%20(43).png)
 
 **Add product** view
 
-![](https://github.com/MartinMwiti/CRM-Django_React/blob/master/img/Screenshot%20(37).png)
+![](https://github.com/MartinMwiti/CRM-Django_React/blob/master/img/Screenshot%20(46).png)
