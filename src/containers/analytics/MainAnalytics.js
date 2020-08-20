@@ -15,7 +15,7 @@ const MainAnalytics = () => {
       </Helmet>
       <Column>
         <div className="contentContainer">
-          <h2>Under Construction</h2>
+          <strong className="analyticsSection">Build by Martin Mwiti - Nakala</strong>
           <AnalyticsComponent />
           {/* <Chart /> */}
         </div>

@@ -22,6 +22,10 @@ body {
   margin-top: var(--default-margin-spacing);
 }
 
+.analyticsSection{
+  margin-bottom: var(--default-margin-spacing);
+}
+
 /* Tables */
 /* Purchase Invoice(DashBoard) */
 .purchaseInvoice {
